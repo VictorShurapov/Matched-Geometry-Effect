@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2F774F251E2F6B004F6C49 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F774E251E2F6B004F6C49 /* Polygon.swift */; };
+		7E2F7752251E2FD7004F6C49 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F7751251E2FD7004F6C49 /* EnvironmentValues.swift */; };
+		7E2F7756251E3050004F6C49 /* AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2F7755251E3050004F6C49 /* AnyTransition.swift */; };
 		7EBFBE9A251E25D500E2DF92 /* HeroAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBFBE99251E25D500E2DF92 /* HeroAnimationsApp.swift */; };
 		7EBFBE9C251E25D500E2DF92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBFBE9B251E25D500E2DF92 /* ContentView.swift */; };
 		7EBFBE9E251E25D900E2DF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EBFBE9D251E25D900E2DF92 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E2F774E251E2F6B004F6C49 /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		7E2F7751251E2FD7004F6C49 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		7E2F7755251E3050004F6C49 /* AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition.swift; sourceTree = "<group>"; };
 		7EBFBE96251E25D500E2DF92 /* HeroAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBFBE99251E25D500E2DF92 /* HeroAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAnimationsApp.swift; sourceTree = "<group>"; };
 		7EBFBE9B251E25D500E2DF92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E2F7759251E3093004F6C49 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E2F7751251E2FD7004F6C49 /* EnvironmentValues.swift */,
+				7E2F7755251E3050004F6C49 /* AnyTransition.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		7EBFBE8D251E25D500E2DF92 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +69,8 @@
 			children = (
 				7EBFBE99251E25D500E2DF92 /* HeroAnimationsApp.swift */,
 				7EBFBE9B251E25D500E2DF92 /* ContentView.swift */,
+				7E2F774E251E2F6B004F6C49 /* Polygon.swift */,
+				7E2F7759251E3093004F6C49 /* Extensions */,
 				7EBFBE9D251E25D900E2DF92 /* Assets.xcassets */,
 				7EBFBEA2251E25D900E2DF92 /* Info.plist */,
 				7EBFBE9F251E25D900E2DF92 /* Preview Content */,
@@ -140,6 +157,9 @@
 			files = (
 				7EBFBE9C251E25D500E2DF92 /* ContentView.swift in Sources */,
 				7EBFBE9A251E25D500E2DF92 /* HeroAnimationsApp.swift in Sources */,
+				7E2F774F251E2F6B004F6C49 /* Polygon.swift in Sources */,
+				7E2F7752251E2FD7004F6C49 /* EnvironmentValues.swift in Sources */,
+				7E2F7756251E3050004F6C49 /* AnyTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
